@@ -1,6 +1,6 @@
-# 🌱 Dry Bean Classification Using Machine Learning
+#  Dry Bean Classification Using Machine Learning
 
-## 📌 Project Overview
+##  Project Overview
 
 This project is a **Machine Learning-based Dry Bean Classification System** developed using Python and Streamlit.
 
@@ -10,7 +10,7 @@ The application also displays the **prediction probabilities** for the different
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 The main objectives of this project are:
 
@@ -38,7 +38,7 @@ The model can classify the following dry bean varieties:
 
 ---
 
-## 📊 Input Features
+## Input Features
 
 The application uses the following **16 features**:
 
@@ -65,7 +65,7 @@ The feature names are kept consistent with the trained model because the predict
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * **Python**
 * **Pandas**
@@ -77,7 +77,7 @@ The feature names are kept consistent with the trained model because the predict
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 dry-bean-classification/
@@ -117,7 +117,7 @@ Project documentation.
 
 ---
 
-## ⚙️ How the Application Works
+##  How the Application Works
 
 The application follows these steps:
 
@@ -141,14 +141,14 @@ The application loads the trained model using Joblib before performing predictio
 
 ---
 
-## 🖥️ Streamlit Application
+##  Streamlit Application
 
 The application provides an interface where users can enter all 16 bean measurements.
 
 After entering the values, the user clicks:
 
 ```text
-🔮 Predict Bean Variety
+ Predict Bean Variety
 ```
 
 The application then displays:
@@ -162,7 +162,7 @@ These prediction and probability components are implemented in the Streamlit app
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Step 1: Clone the Repository
 
@@ -196,7 +196,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 Run the following command:
 
@@ -208,7 +208,7 @@ The Streamlit application will open in your browser.
 
 ---
 
-## 🔮 Making a Prediction
+##  Making a Prediction
 
 1. Open the Streamlit application.
 2. Enter the 16 bean measurements.
@@ -220,7 +220,7 @@ The Streamlit application will open in your browser.
 
 ---
 
-## 📈 Prediction Output
+## Prediction Output
 
 The application provides a result similar to:
 
@@ -232,7 +232,7 @@ It also displays the probability associated with each bean variety when the trai
 
 ---
 
-## 🧠 Machine Learning Task
+##  Machine Learning Task
 
 This project performs:
 
@@ -250,7 +250,7 @@ One dry bean variety
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 The Streamlit application can be deployed using **Streamlit Community Cloud**.
 
@@ -265,6 +265,6 @@ General deployment process:
 
 ---
 
-## 🔒 Model File
+##  Model File
 
 The trained model is stored
